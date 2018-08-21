@@ -1,0 +1,28 @@
+@font-face
+{
+font-family:digital;
+src:url(digital-7.ttf);
+}
+body
+{
+background-color:#646464;
+}
+.container
+{
+font-family:digital;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+padding:1px;
+
+border:2px solid black;
+
+box-shadow:0 0 3px 3px #999;
+}
+.info
+{
+font-family:'digital-clock-font';
+font-size:140px;
+}
